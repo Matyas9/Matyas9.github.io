@@ -39,9 +39,9 @@ const enableButtons = () => {
 const winFunction = (letter) => {
   disableButtons();
   if (letter == "X") {
-    msgRef.innerHTML = "&#x1F389; <br> 'X' Vyhrál";
+    msgRef.innerHTML = 🤝🤝🤝🤝 <br>  Vyhrálo <br> x ;
   } else {
-    msgRef.innerHTML = "&#x1F389; <br> 'O' Vyhrál";
+    msgRef.innerHTML = "&#x1F389; <br> 'o' Vyhrál";
   }
 };
 
@@ -87,12 +87,12 @@ btnRef.forEach((element) => {
     if (xTurn) {
       xTurn = false;
       //Display X
-      element.innerText = "X";
+      element.innerText = "x";
       element.disabled = true;
     } else {
       xTurn = true;
       //Display Y
-      element.innerText = "O";
+      element.innerText = "o";
       element.disabled = true;
     }
     //Increment count on each click
