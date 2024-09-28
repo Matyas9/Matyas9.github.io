@@ -39,7 +39,7 @@ const enableButtons = () => {
 const winFunction = (letter) => {
   disableButtons();
   if (letter == "X") {
-    msgRef.innerHTML = "&#x1F389; <br> 'X' Vyhrál";
+    msgRef.innerHTML = "&#x1F389; <br> Vyhralo ";
   } else {
     msgRef.innerHTML = "&#x1F389; <br> 'O' Vyhrál";
   }
@@ -48,7 +48,7 @@ const winFunction = (letter) => {
 //Function for draw
 const drawFunction = () => {
   disableButtons();
-  msgRef.innerHTML = "U+1F91D; <br> Je to remíza";
+  msgRef.innerHTML = "U+1F91D; <br> Je to <br> remíza";
 };
 
 //New Game
