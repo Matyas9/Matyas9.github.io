@@ -48,7 +48,7 @@ const winFunction = (letter) => {
 //Function for draw
 const drawFunction = () => {
   disableButtons();
-  msgRef.innerHTML = "U+1F91D; <br> Je to <br> remíza";
+  msgRef.innerHTML = "&#129309; <br> Je to <br> remíza";
 };
 
 //New Game
