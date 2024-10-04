@@ -34,4 +34,6 @@ border: none;
 border-radius: 8px;
 position: relative;
 margin: 2em auto 0 auto;
+flex:auto;
+flex-wrap: wrap;
 }
