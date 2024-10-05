@@ -36,4 +36,6 @@ position: relative;
 margin: 2em auto 0 auto;
 flex:auto;
 flex-wrap: wrap;
+flex-flow: column;
+flex-basis: auto;
 }
